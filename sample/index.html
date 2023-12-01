@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+        .wrap {
+            width: 100%;
+            height: 108%;
+        }
+        header {
+            width: 100%;
+            height: 50px;
+            background-color: #ddd;
+        }
+        main {
+            width: 100%;
+            display: flex;
+            padding-top: 50px;
+        }
+        .gallery {
+            display: flex;
+            padding: 0 100px;
+        }
+        .gallery > .items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        img {
+            width: 500px;
+            height: 750px;
+            background-color: #000;
+            margin: 50px auto;
+        }
+        footer {
+            width: 100%;
+            height: 150px;
+            background-color: #ddd;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>header</h1>
+        </header>
+        <main>
+            <div class="gallery">
+                <div class="items">
+                    <img src="https://picsum.photos/500/740" alt="그림1">
+                    <img src="https://picsum.photos/500/750" alt="그림2">
+                    <img src="https://picsum.photos/500/760" alt="그림3">
+                    <img src="https://picsum.photos/500/770" alt="그림4">
+                    <img src="https://picsum.photos/500/780" alt="그림5">
+                    <img src="https://picsum.photos/500/790" alt="그림6">
+                    <img src="https://picsum.photos/500/730" alt="그림7">
+                    <img src="https://picsum.photos/500/720" alt="그림8">
+                    <img src="https://picsum.photos/500/710" alt="그림9">
+                    <img src="https://picsum.photos/500/700" alt="그림10">
+                    <img src="https://picsum.photos/500/650" alt="그림11">
+                    <img src="https://picsum.photos/500/640" alt="그림12">
+                </div>
+            </div>
+        </main>
+        <footer>
+            <h1>footer</h1>
+        </footer>
+    </div>
+   
+</body>
+</html>
